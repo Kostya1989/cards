@@ -1,0 +1,45 @@
+.container {
+  margin: 0 auto;
+  padding: 40px
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  height: 205px;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: rgb(85, 85, 228);
+  color: transparent;
+  font-size: 48px;
+  transition: background-color .5s, color .5s transform .5s;
+}
+
+.card.open {
+  background-color: rgb(185, 111, 117);
+  color: rgb(55, 18, 156);
+}
+
+.card.success {
+  background-color: rgb(126, 228, 165);
+  color: rgb(2, 9, 19);
+  transform: scale(0.95);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: gray;
+}
+
+
+
